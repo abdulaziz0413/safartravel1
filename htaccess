@@ -1,0 +1,107 @@
+ErrorDocument 403 /404.html
+ErrorDocument 404 /404.html
+
+DirectoryIndex page74505983.html
+
+RewriteEngine On
+
+RewriteCond %{HTTP:X-Forwarded-Proto} =http
+RewriteRule ^(.*)$ https://aksiya\.safartravel\.uz/$1 [R=301,L]
+
+RewriteCond %{HTTP:X-Forwarded-Proto} =https
+RewriteCond %{HTTP_HOST} ^www\.aksiya.safartravel.uz [NC]
+RewriteRule ^(.*)$ https://aksiya\.safartravel\.uz/$1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/project11379117/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^ru$ page60508223.html [NC]
+RewriteRule ^ru/$ page60508223.html [NC]
+
+RewriteRule ^umrasafartravel$ page116050526.html [NC]
+RewriteRule ^umrasafartravel/$ page116050526.html [NC]
+
+RewriteRule ^postlar$ page60663431.html [NC]
+RewriteRule ^postlar/$ page60663431.html [NC]
+
+RewriteRule ^links$ page61184281.html [NC]
+RewriteRule ^links/$ page61184281.html [NC]
+
+RewriteRule ^mmm$ page61185279.html [NC]
+RewriteRule ^mmm/$ page61185279.html [NC]
+
+RewriteRule ^xotirjamumrasafari$ page74453563.html [NC]
+RewriteRule ^xotirjamumrasafari/$ page74453563.html [NC]
+
+RewriteRule ^xotirjamumrasafari1$ page74505447.html [NC]
+RewriteRule ^xotirjamumrasafari1/$ page74505447.html [NC]
+
+RewriteRule ^telegram$ page74572065.html [NC]
+RewriteRule ^telegram/$ page74572065.html [NC]
+
+RewriteRule ^telegramuchun$ page75477706.html [NC]
+RewriteRule ^telegramuchun/$ page75477706.html [NC]
+
+RewriteRule ^call$ page76883336.html [NC]
+RewriteRule ^call/$ page76883336.html [NC]
+
+RewriteRule ^googleads$ page77205216.html [NC]
+RewriteRule ^googleads/$ page77205216.html [NC]
+
+RewriteRule ^28-sentabr$ page80639446.html [NC]
+RewriteRule ^28-sentabr/$ page80639446.html [NC]
+
+RewriteRule ^sanavanarx$ page80927246.html [NC]
+RewriteRule ^sanavanarx/$ page80927246.html [NC]
+
+RewriteRule ^29sentabr-799$ page81542886.html [NC]
+RewriteRule ^29sentabr-799/$ page81542886.html [NC]
+
+RewriteRule ^umrasupermarketi$ page81896116.html [NC]
+RewriteRule ^umrasupermarketi/$ page81896116.html [NC]
+
+RewriteRule ^19oktabr$ page85357186.html [NC]
+RewriteRule ^19oktabr/$ page85357186.html [NC]
+
+RewriteRule ^16oktabr-adress$ page86425636.html [NC]
+RewriteRule ^16oktabr-adress/$ page86425636.html [NC]
+
+RewriteRule ^23noyabr$ page87353746.html [NC]
+RewriteRule ^23noyabr/$ page87353746.html [NC]
+
+RewriteRule ^supermarket$ page88761776.html [NC]
+RewriteRule ^supermarket/$ page88761776.html [NC]
+
+RewriteRule ^swiss$ page104922246.html [NC]
+RewriteRule ^swiss/$ page104922246.html [NC]
+
+RewriteRule ^millennium$ page107308646.html [NC]
+RewriteRule ^millennium/$ page107308646.html [NC]
+
+RewriteRule ^yaqen$ page109739086.html [NC]
+RewriteRule ^yaqen/$ page109739086.html [NC]
+
+RewriteRule ^millennium11$ page109740736.html [NC]
+RewriteRule ^millennium11/$ page109740736.html [NC]
+
+RewriteRule ^nasiya$ page110044926.html [NC]
+RewriteRule ^nasiya/$ page110044926.html [NC]
+
+RewriteRule ^vaucher$ page110046186.html [NC]
+RewriteRule ^vaucher/$ page110046186.html [NC]
+
+RewriteRule ^fevral2$ page113468316.html [NC]
+RewriteRule ^fevral2/$ page113468316.html [NC]
+
+RewriteRule ^yaqeen10$ page113692256.html [NC]
+RewriteRule ^yaqeen10/$ page113692256.html [NC]
+
+RewriteRule ^sovga$ page116817086.html [NC]
+RewriteRule ^sovga/$ page116817086.html [NC]
+
+RewriteRule ^test$ page117596576.html [NC]
+RewriteRule ^test/$ page117596576.html [NC]
+
+RewriteRule ^members/ ma_start.html [NC,L]
+
+
